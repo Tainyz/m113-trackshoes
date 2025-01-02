@@ -1,1 +1,6 @@
-# m113-trackshoes
+# Mixed Reality App for Assembly of M113 Track Shoe
+The maintenance and repair of M113 armored personnel carriers in Thailand are complex and require significant expertise. Practical training and hands-on experience are essential for maintenance technicians to fully understand the operation and repair processes of these vehicles, enhancing their efficiency and skill. However, traditional tank track maintenance training often faces budgetary constraints and the inherent complexity of the vehicles, limiting the effectiveness of the learning process.
+
+To address these challenges, our project team aims to develop an innovative and effective learning tool for tank engine maintenance using Mixed Reality (MR) technology. The project involves creating an application through Unity3D that simulates the disassembly and reassembly of tank tracks in a realistic mixed-reality environment. This application allows users to practice with virtual tank tracks that are true-to-scale and provide a lifelike experience, ensuring a deeper and more immersive understanding of the process.
+
+We hope this application will empower maintenance technicians and enthusiasts to learn and practice tank maintenance efficiently through advanced MR technology, providing them with a comprehensive and impactful training experience.
