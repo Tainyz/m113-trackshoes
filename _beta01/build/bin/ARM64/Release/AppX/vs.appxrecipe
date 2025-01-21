@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TAINYZPC</Machine>
+    <WindowsUser>tamtai</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>76eee9d0-c6ad-4db9-8c66-847a4a23a374</PackageIdentityName>
+    <PackageIdentityPublisher>CN=TaiPooh</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\GitProj\m113-trackshoes\_beta01\build\obj\M113-Mergea\ARM64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F3EBA07F878C21A415A49715BBDDA335A1FD8C1DF25AC391ACE4CFB345C70599</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>M113-Demo_1.0.0.0_arm64__4f29947e13810</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>M113-Demo_4f29947e13810!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>M113-Demo</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=TaiPooh</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:52:14.457</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\M113-Mergea.exe">
+      <PackagePath>M113-Mergea.exe</PackagePath>
+      <Modified>2025-01-21T11:52:12.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2024-10-15T23:08:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2024-10-15T23:08:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\M113_Mergea.winmd">
+      <PackagePath>M113_Mergea.winmd</PackagePath>
+      <Modified>2025-01-21T11:52:12.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-21T11:45:19.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2025-01-21T11:45:19.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2025-01-21T11:45:19.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2025-01-21T11:45:45.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2025-01-21T11:45:44.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2025-01-21T11:45:19.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2025-01-21T11:45:19.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level1">
+      <PackagePath>Data\level1</PackagePath>
+      <Modified>2025-01-21T11:45:19.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level2">
+      <PackagePath>Data\level2</PackagePath>
+      <Modified>2025-01-21T11:45:19.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level3">
+      <PackagePath>Data\level3</PackagePath>
+      <Modified>2025-01-21T11:45:19.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2025-01-21T11:45:19.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2025-01-21T11:45:19.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets1.assets">
+      <PackagePath>Data\sharedassets1.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets2.assets">
+      <PackagePath>Data\sharedassets2.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets3.assets">
+      <PackagePath>Data\sharedassets3.assets</PackagePath>
+      <Modified>2025-01-21T11:45:19.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\globalgamemanagers.assets.resS">
+      <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level1.resS">
+      <PackagePath>Data\level1.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level2.resS">
+      <PackagePath>Data\level2.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\level3.resS">
+      <PackagePath>Data\level3.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets1.assets.resS">
+      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets3.assets.resS">
+      <PackagePath>Data\sharedassets3.assets.resS</PackagePath>
+      <Modified>2025-01-21T11:45:19.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\RuntimeInitializeOnLoads.json">
+      <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
+      <Modified>2025-01-21T11:45:19.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\ScriptingAssemblies.json">
+      <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
+      <Modified>2025-01-21T11:45:19.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2025-01-21T11:45:19.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2025-01-21T11:45:19.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2025-01-21T11:45:19.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2025-01-21T11:45:24.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\openxr_loader.dll">
+      <PackagePath>openxr_loader.dll</PackagePath>
+      <Modified>2025-01-21T11:45:19.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\UnityOpenXRHands.dll">
+      <PackagePath>UnityOpenXRHands.dll</PackagePath>
+      <Modified>2025-01-21T11:45:19.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\UnityOpenXR.dll">
+      <PackagePath>UnityOpenXR.dll</PackagePath>
+      <Modified>2025-01-21T11:45:19.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\M113-Mergea\MicrosoftOpenXRPlugin.dll">
+      <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
+      <Modified>2025-01-21T11:45:19.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2025-01-21T11:52:09.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
+      <PackagePath>baselib.dll</PackagePath>
+      <Modified>2024-10-15T23:08:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta01\build\bin\ARM64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2025-01-21T11:52:13.622</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
