@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TAINYZPC</Machine>
+    <WindowsUser>tamtai</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>76eee9d0-c6ad-4db9-8c66-847a4a23a374</PackageIdentityName>
+    <PackageIdentityPublisher>CN=TaiPooh</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\GitProj\m113-trackshoes\_beta02\build\obj\M113-Assy\ARM64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\M113-Assy.exe">
+      <PackagePath>M113-Assy.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\M113_Assy.winmd">
+      <PackagePath>M113_Assy.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level1">
+      <PackagePath>Data\level1</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level2">
+      <PackagePath>Data\level2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level3">
+      <PackagePath>Data\level3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets1.assets">
+      <PackagePath>Data\sharedassets1.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets2.assets">
+      <PackagePath>Data\sharedassets2.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets3.assets">
+      <PackagePath>Data\sharedassets3.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\globalgamemanagers.assets.resS">
+      <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level1.resS">
+      <PackagePath>Data\level1.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level2.resS">
+      <PackagePath>Data\level2.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\level3.resS">
+      <PackagePath>Data\level3.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets1.assets.resS">
+      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets2.assets.resS">
+      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets3.assets.resS">
+      <PackagePath>Data\sharedassets3.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\RuntimeInitializeOnLoads.json">
+      <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\ScriptingAssemblies.json">
+      <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\openxr_loader.dll">
+      <PackagePath>openxr_loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\UnityOpenXRHands.dll">
+      <PackagePath>UnityOpenXRHands.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\UnityOpenXR.dll">
+      <PackagePath>UnityOpenXR.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\M113-Assy\MicrosoftOpenXRPlugin.dll">
+      <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2022.3.51f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
+      <PackagePath>baselib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitProj\m113-trackshoes\_beta02\build\bin\ARM64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
