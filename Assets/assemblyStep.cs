@@ -23,7 +23,7 @@ public class assemblyStep : MonoBehaviour
     {
         if (DialogObj != null)
         {
-            Invoke(nameof(ActivateObject), 1f);
+            Invoke(nameof(ActivateObject), 3f);
 
         }
         targetTag = "Step 0" + Step;
