@@ -1505,7 +1505,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8f93490dc991d9c4c8d64cdcda1b98f1, type: 2}
     - target: {fileID: 8552458284205126931, guid: f9eb463284311064e89e8f671e757c9a, type: 3}
       propertyPath: m_Name
-      value: Tank-Button02
+      value: Tank-Button
       objectReference: {fileID: 0}
     - target: {fileID: 8552458284205126931, guid: f9eb463284311064e89e8f671e757c9a, type: 3}
       propertyPath: m_IsActive

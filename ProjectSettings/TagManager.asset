@@ -9,6 +9,8 @@ TagManager:
   - Step 01
   - Step 02
   - Step 03
+  - Step 00
+  - Step 04
   layers:
   - Default
   - TransparentFX
